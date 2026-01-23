@@ -51,6 +51,7 @@ public class LayerDefinitionOverrides {
         add(new Entry(ModelLayers.COW_BABY, CowModel.createBodyLayer(), CowModel.BABY_TRANSFORMER));
         add(new Entry(ModelLayers.WARM_COW_BABY, WarmCowModel.createBodyLayer(), CowModel.BABY_TRANSFORMER));
         add(new Entry(ModelLayers.COLD_COW_BABY, ColdCowModel.createBodyLayer(), CowModel.BABY_TRANSFORMER));
+        add(new Entry(ModelLayers.MOOSHROOM_BABY, CowModel.createBodyLayer(), CowModel.BABY_TRANSFORMER));
         add(new Entry(ModelLayers.WOLF_BABY, LayerDefinition.create(AdultWolfModel.createBodyLayer(CubeDeformation.NONE), 64, 32), Constants.DEFAULT_BABY_TRANSFORMER));
         add(new Entry(ModelLayers.CAT_BABY, LayerDefinition.create(AdultCatModel.createBodyMesh(CubeDeformation.NONE), 64, 32), Constants.FELINE_BABY_TRANSFORMER));
         add(new Entry(ModelLayers.CAT_BABY_COLLAR, LayerDefinition.create(AdultFelineModel.createBodyMesh(AdultCatModel.COLLAR_DEFORMATION), 64, 32).apply(AdultCatModel.CAT_TRANSFORMER), Constants.FELINE_BABY_TRANSFORMER));

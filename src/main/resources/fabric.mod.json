@@ -5,7 +5,11 @@
   "name": "Old Babies",
   "description": "Restores the original large headed look of baby mobs",
   "authors": ["Boid"],
-  "contact": {},
+  "contact": {
+    "homepage" : "https://modrinth.com/project/old-babies",
+    "sources" : "https://github.com/Boidd/old-babies",
+    "issues" : "https://github.com/Boidd/old-babies/issues"
+  },
   "license": "All-Rights-Reserved",
   "icon": "icon.png",
   "environment": "client",
